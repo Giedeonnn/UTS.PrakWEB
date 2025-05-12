@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paket Diamond | DiamondZStore</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e1a;
+      color: white;
+    }
+
+    header {
+      background: #1a1a2e;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00f7ff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00f7ff;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #00f7ff;
+    }
+
+    .paket-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .paket {
+      background: #16213e;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .paket:hover {
+      transform: translateY(-5px);
+    }
+
+    .paket h3 {
+      margin: 0;
+      font-size: 1.5em;
+      color: #00f7ff;
+    }
+
+    .paket p {
+      margin: 10px 0;
+    }
+
+    .btn {
+      background: #00f7ff;
+      padding: 8px 20px;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #00c9d1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f3460;
+      color: #ddd;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DiamondZStore</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="paket.html">Paket</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Pilih Paket Diamond Kamu</h2>
+    <div class="paket-grid">
+      <div class="paket">
+        <h3>86 Diamond</h3>
+        <p>Rp 20.000</p>
+        <a href="https://wa.link/9y8e3z" class="btn">Beli Sekarang</a>
+      </div>
+      <div class="paket">
+        <h3>172 Diamond</h3>
+        <p>Rp 38.000</p>
+        <a href="https://wa.link/9y8e3z" class="btn">Beli Sekarang</a>
+      </div>
+      <div class="paket">
+        <h3>257 Diamond</h3>
+        <p>Rp 55.000</p>
+        <a href="https://wa.link/9y8e3z" class="btn">Beli Sekarang</a>
+      </div>
+      <div class="paket">
+        <h3>344 Diamond</h3>
+        <p>Rp 70.000</p>
+        <a href="https://wa.link/9y8e3z" class="btn">Beli Sekarang</a>
+      </div>
+      <div class="paket">
+        <h3>429 Diamond</h3>
+        <p>Rp 85.000</p>
+        <a href="https://wa.link/9y8e3z" class="btn">Beli Sekarang</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
